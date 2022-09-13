@@ -1,0 +1,10 @@
+You are building a tool to let a user pick their numbers for a lottery.
+A lottery ticket has four to eight numbers on it in the range 1-99. The order of the numbers matters.
+ The user should be able to get a random selection, to replace a number, to remove a number (shifting the 
+ ones afterwards downwards), to insert a number (shifting the ones afterwards upwards to make space), and 
+ to print out their current numbers.
+Use an array to store the currently-selected numbers. Create a text interface using a Scanner and System.in 
+to allow the user to manipulate the numbers.
+Let the user store a certain number of old tickets and retrieve them to use again.
+Draw the lottery by picking random numbers and report whether the ticket won or not. You can decide what 
+the winning criteria are.
